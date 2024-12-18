@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(to right, #f2f2f2, #e0e0e0);
+    background: linear-gradient(to right, #8000005a, #e0e0e0);
 }
 
 /* Navigation Bar */
@@ -44,13 +44,13 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    background-color: #F40009;
+    background-color: #44090be3;
     padding: 5px 15px;
     border-radius: 8px;
 }
 
 nav ul li a:hover {
-    color:#AA0000;
+    color:#0befe4;
 }
 
 
@@ -84,6 +84,7 @@ h1 {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -146,6 +147,7 @@ button:hover {
 
 p{
     font-size: 24px;
+    font-family:serif;
 }
 p a {
     color: #800000;
@@ -166,6 +168,7 @@ p a:hover {
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 /* Search Bar and Sorting */
